@@ -1,0 +1,86 @@
+.house {
+    margin-left: 0%;
+    margin-right: 20%;
+}
+
+.left {
+    border: 1px solid red;
+    float: left;
+}
+
+.right {
+    border: 1px solid black;
+    margin-left: 25%;
+    margin-right: 50%;
+}
+
+.navbar {
+    background-color: #b6cdb3;
+}
+
+.navbar a {
+    float: left;
+    margin-left: 15%;
+        color: white;
+        text-decoration: none;
+}
+
+.buttons {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: yellow;
+        color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+body {
+    background-color: #2d2d2d;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.ReviewpageNavbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ReviewpageNavbar a {
+    text-decoration: none;
+}
+
+table {
+    background-color: yellow;
+}
+
+.review p {
+    color: yellow;
+}
+
+input[type='number']{
+    width: 70px;
+} 
+
+.delete {
+    background-color: red;
+}
